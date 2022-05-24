@@ -180,6 +180,7 @@ void menu()
             break;
         }
         i++;
+        printf("\n\nEnter a Key to Continue!!");
         getch();
     } while (i);
 }
