@@ -57,7 +57,7 @@ Node *insertEnd(Node *st, int item) // Inserting a Node at the end of the Linked
     return st;
 }
 
-Node *dele_beg(Node *st)
+Node *dele_beg(Node *st) // Deleting a node at the beginning
 {
     Node *ptr;
     ptr = st;
@@ -66,7 +66,7 @@ Node *dele_beg(Node *st)
     return st;
 }
 
-Node *dele_end(Node *st)
+Node *dele_end(Node *st) // Deleting a node from the end
 {
     Node *ptr, *p;
     ptr = st;
@@ -99,7 +99,7 @@ Node *insert_spe(Node *st, int data, int item) // Inserting a node in the list a
     return st;
 }
 
-Node *Delete_spe(Node *st, int item)
+Node *Delete_spe(Node *st, int item) // Deleting a node at specific position
 {
     Node *p, *ptr;
     ptr = st;
@@ -115,7 +115,7 @@ Node *Delete_spe(Node *st, int item)
     return st;
 }
 
-void menu()
+void menu() // To display menu options on the Screen
 {
     int choice, num, i = 0, num2;
     char ch;
