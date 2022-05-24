@@ -124,6 +124,7 @@ void menu()
     {
         /* code */
         system("cls");
+        printf("\n\n*******MENU*********");
         printf("\n1. Insert Element at Beginning!");
         printf("\n2. Insert Element at End Position!!");
         printf("\n3. Insert Element at Specific Position!");
